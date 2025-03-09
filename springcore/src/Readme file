@@ -1,0 +1,74 @@
+______Spring Framework____________
+
+Primitive Types:
+
+<property name ="">
+<value> value</value>
+</property>
+<property name = "" value = ""/>
+<bean p:property:Value />
+
+___________________________________________
+
+Collection Types:
+
+List 
+<bean>
+<property name="" >
+<list>
+<value> 10</value>
+<value>1023</value>
+<value>12350</value>
+<value>1052</value>
+<null/>
+</list>
+
+</property>
+<bean>
+
+__________________________________________
+Set
+
+<bean>
+<property name ="">
+<set>
+<value> 10</value>
+<value>1023</value>
+<value>12350</value>
+<value>1052</value>
+</set>
+</property>
+</bean>
+
+
+_________________________________________________
+
+Map
+
+<bean> 
+<property name ="">
+<map>
+<entry key ="java" value = "2month"/>
+<entry key ="python" value = "3month"/>
+
+</map>
+</property>
+</bean>
+______________________________________________
+
+Property 
+
+<bean>
+<property name ="">
+<props>
+<prop key ="name"> geetanjali</prop>
+<prop key ="channelName">Learncodingin spring</prop>
+</props>
+</property>
+</bean>
+__________________________
+
+
+
+
+
