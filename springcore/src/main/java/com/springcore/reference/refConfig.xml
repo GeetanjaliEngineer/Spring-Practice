@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Bean for B -->
+    <bean id="bref" class="com.springcore.reference.B">
+        <property name="y" value="20" />
+    </bean>
+
+    <!-- Bean for A with reference to B -->
+    <bean id="aref" class="com.springcore.reference.A">
+        <property name="x" value="10" />
+        <property name="ob" ref="bref" />
+    </bean>
+
+</beans>
