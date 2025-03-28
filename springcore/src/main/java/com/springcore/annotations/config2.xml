@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						">
+
+
+	<context:annotation-config />
+	
+	<!-- Define Address B  ean -->
+	<bean class="com.springcore.auto.wire.annotations.Address" id="address">
+		<property name="street" value="Second street" />
+		<property name="city" value="Gwalior" />
+	</bean>
+
+	<!-- Define Employee Bean (autowire byType) -->
+	<bean class="com.springcore.auto.wire.annotations.Emp" id="emp1" />
+
+
+	<!-- by name, by type , constructor-->
+
+</beans>
